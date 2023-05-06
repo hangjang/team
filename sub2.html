@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자주묻는질문</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/sub2.js"></script>
+    <link rel="stylesheet" href="css/sub2.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/288fb4c6b2.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="small">
+            <div id="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
+            <nav>
+                <ul>
+                    <li><a href="">모나미소개</a><div class="down"><i class="fa-solid fa-angle-down"></i></div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">CEO 메시지</a></li>
+                                <li><a href="#">회사정보</a></li>
+                                <li><a href="#">회사연혁</a></li>
+                                <li><a href="#">윤리강령</a></li>
+                                <li><a href="#">투자정보</a></li>
+                                <li><a href="#">CI</a></li>
+                                <li><a href="#">채용정보</a></li>
+                                <li><a href="#">찾아오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li><a href="sub1.html">모나미제품</a><div class="down"><i class="fa-solid fa-angle-down"></i></div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="sub1.html">펜</a></li>
+                                <li><a href="sub1.html">마카</a></li>
+                                <li><a href="sub1.html">형광펜</a></li>
+                                <li><a href="sub1.html">미술용품</a></li>
+                                <li><a href="sub1.html">기타</a></li>
+                                <li><a href="sub1.html">카탈로그</a></li>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li><a href="">NEWS & VIDEO</a><div class="down"><i class="fa-solid fa-angle-down"></i></div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">보도자료</a></li>
+                                <li><a href="#">동영상자료</a></li>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li><a href="">모나미 미술대회</a><div class="down"><i class="fa-solid fa-angle-down"></i></div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">미술대회 소개</a></li>
+                                <li><a href="#">수상작 발표</a></li>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li><a href="sub2.html">고객지원</a><div class="down"><i class="fa-solid fa-angle-down"></i></div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="sub2.html">자주묻는질문</a></li>
+                                <li><a href="sub2-1.html">문의하기</a></li>
+                                <li><a href="#">이벤트</a></li>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li><a href="">기업 구매 / 개발</a><div class="down"><i class="fa-solid fa-angle-down"></i></div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">대량 구매 문의</a></li>
+                                <li><a href="#">기업 및 단체 구매</a></li>
+                                <li><a href="#">산업용 맞춤 제품개발</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="banner"><a href="/data/2023모나미카탈로그.pdf" download><img src="img/pdf_banner.png" alt=""></a></li>
+                </ul>
+                <div class="navdown">
+                    <div id="wrapwrap">
+                    <div id="empty1"></div>
+                    <div id="empty2"></div>
+                    <div id="imgWrap"><a href="/data/2023모나미카탈로그.pdf" download><img src="img/pdf_down.png" alt="카탈로그 다운"></a></div>
+                    </div>
+                </div>
+            </nav>
+            <div class="selectbox">
+                <select name="language" id="language">
+                    <option value="KOR">KOR</option>
+                    <option value="USA">USA</option>
+                    <option value="China">China</option>
+                </select>
+                <select name="familysite" id="familysite">
+                    <option value="monamimall">모나미몰</option>
+                    <option value="monarutte">모나르떼</option>
+                    <option value="monamistore">모나미 컨셉스토어</option>
+                    <option value="hangso">주식회사 항소</option>
+                    <option value="station">모나미 스테이션</option>
+                    <option value="art">모나미 미술대회</option>
+                    <option value="service">모나미 기업서비스</option>
+                    <option value="cosmetic">모나미코스메틱</option>
+                    <option value="family site" selected="selected">FAMILY SITE</option>
+                </select>
+                <div class="icon nav-icon-5">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        </header>
+
+        <!-- 자주묻는질문 -->
+    <div id="contain">
+        <div id="wrap">
+            <div id="subNav">
+                <p>홈 > 고객지원 > <span>자주묻는질문</span></p>
+            </div>
+            <div id="leftNav">
+                <div id="Home"><h2>홈<br><span>고객지원</span></h2></div>
+                <div id="ask">
+                    <ul>
+                        <li><a href="sub2.html">자주묻는질문</a></li>
+                        <li><a href="sub2-1.html">1:1고객문의</a></li>
+                        <li><a href="">무상보증 서비스</a></li>
+                        <li><a href="">비즈니스</a></li>
+                        <li><a href="">모나미 뉴스</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="mobmenu">
+                <ul>
+                    <li><a>고객지원</a></li>
+                    <li><a>자주묻는질문</a>
+                    <ul id="secondmenu">
+                        <li><a href="sub2.html">자주묻는질문</a></li>
+                        <li><a href="sub2-1.html">1:1고객문의</a></li>
+                        <li><a href="">무상보증 서비스</a></li>
+                        <li><a href="">비즈니스</a></li>
+                        <li><a href="">모나미 뉴스</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="inner">
+            <select name="question" id="select">
+                <option value="1">전체</option>
+                <option value="2">제품</option>
+                <option value="3">비즈니스</option>
+                <option value="4">기타</option>
+            </select>
+            </div>
+            <div id="rightNav">
+                <h2>자주묻는질문</h2>
+                <p>고객님의 작은 소리 하나까지 귀 기울이겠습니다.</p>
+                <div id="subbox">
+                <ul id="subtab">
+                    <li class="active1">전체</li>
+                    <li>제품</li>
+                    <li>비즈니스</li>
+                    <li>기타</li>
+                </ul>
+                <div id="listbox">
+                    <div id="list1">
+                        <ul>
+                            <li>
+                                <p class="faq">
+                                    모나미는 한국 기업인가요?
+                                </p>
+                                <div class="answer">
+                                    <p>모나미의 역사는 1960년 창립된 광신화학공업사에서 출발하여 약 50여년 동안 문구의 길을 걷고 있는 국내 기업입니다.<br>
+                                        필기구를 넘어 종합문구 분야의 선도적인 기업으로 건실한 성장을 이뤄온 모나미는 국내시장 뿐 아니라 해외시장에서도 꾸준한 성장을 거둬 전세계 다양한 국가로 수출되고 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    모나미에 입사하고 싶습니다.
+                                </p>
+                                <div class="answer">
+                                    <p>모나미는 언제나 인재 등용에 가능성을 열고 있는 기업입니다.<br>
+                                        문구 산업에 관심이 많은 분이나, 꿈을 키워가고 싶은 분들이 있다면, 상시 지원의 길을 열어 두고 있습니다.<br>
+                                        회사에서 바라는 인재상이 '진취적이고, 능동적인 사람'이기 때문에, 열정을 가지고 있는 분들이라면, 누구든지 메일로 이력서를 보내주시면 되겠습니다.<br>
+                                        물론 특별히 필요한 인재에 대한 모집을 진행하는 경우도 있으니, 취업 사이트에 즐겨찾기를 해두시는 것도 방법일 것 같습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    기업 제휴를 제안하고 싶습니다.
+                                </p>
+                                <div class="answer">
+                                    <p>양사의 제품이나 서비스에 관련된 어떠한 형태의 제휴나, 홍보 콘텐츠 제안도 환영합니다. 구체적인 제안 사항에 대해서 작성 하시어,<br>
+                                        모나미 공식 홈페이지 ► 기업 구매 / 개발 ► 산업용 맞춤 제품개발 게시판을 통해 ‘제휴문의’ 글을 남겨주시면 기재해주신 연락처로 답변 드리겠습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    특판/대량구매를 문의하고 싶습니다.
+                                </p>
+                                <div class="answer">
+                                    <p>모나미 공식 홈페이지 ► 기업 구매 / 개발 ► 대량 구매 문의 게시판을 통해 ‘특판/대량구매’ 글을 남겨주시면 기재해주신 연락처로 답변드리겠습니다.<br>
+                                        특판 혹은 대량구매 문의 시에 예상되는 주문 수량이나, 구체적인 오더 내용에 대해서 기재해주시면 더욱 더 상세한 상담이 가능합니다. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    볼펜이 추운겨울이 되면 잘 나오지 않는 이유는?
+                                </p>
+                                <div class="answer">
+                                    <p>
+                                        일반적으로 액체는 온도에 따라 점성 즉 흐름성의 변화가 다른데, 온도가 높으면 흐름성(분자운동)이 크고 온도가 낮으면 흐름성(분자운동)이 적어집니다. <br>
+                                        볼펜잉크도 마찬가지로 온도변화에 따라 흐름성의 차이가 있어 날씨가 추운 겨울철에는 잘 나오지 않습니다.<br>
+                                        그러나 실내온도에 잠시 놔둔 후 사용하면 잘 써집니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    아이가 잉크를 먹었습니다. 응급조치 방법은?
+                                </p>
+                                <div class="answer">
+                                    <p>필기구 잉크는 원칙적으로 저자극성, 무독성 원료를 사용합니다.<br>
+                                        참고로 문구제품은 사람들이 지니고 다니거나, 가까이 두고 사용하는 물건이기 때문에 잉크의 원료 하나하나가 안정성을 고려해 만들어져 있습니다.<br>
+                                        그러므로 아이가 잉크를 먹었다해도 치명적인 문제는 발생하지 않으며, 당황하지 말고 입속과 주위를 깨끗하게 닦아주시면 됩니다. <br>
+                                        단지, 아이를 잘 관찰하다가 이상이 있다고 생각되면 의사와 상담하는 것이 바람직합니다.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="list3">
+                        <ul>
+                            <li>
+                                <p class="faq">
+                                    아이디어를 제공하고 싶어요. 어떻게 하나요?
+                                </p>
+                                <div class="answer">
+                                    <p>모나미는 다양한 아이디어와 의견을 기다리고 있습니다. 아이디어 및 의견 제공은 아래의 이메일로 문의 주시기 바랍니다.<br>
+                                    E-MAIL:help2@monami.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    잉크를 지우는 방법이 궁금합니다.
+                                </p>
+                                <div class="answer">
+                                    <p><span class="numtitle"><span>01</span> 유성볼펜류</span>
+                                        오염된 부분을 소량의 벤질 알코올에 약 5분간 담가둔 다음, 가볍게 주무르거나 비벼서 잉크를 녹여낸다. 이때 오염 주의에 녹아난 잉크로 지저분해진 부분은 즉시 비눗물로 세척하거나,
+                                        메칠 알코올로 세척하면 깨끗해진다.견직(Silk), 모직(Wool) 등의 섬유에는 손상을 줄 우려가 있으므로, 겉에서 보이지 않는 부분을 실험해 본 후 세탁하며, 가볍게 비벼야 한다. 
+                                    </p><br>
+                                    <p>
+                                        <span class="numtitle"><span>02</span> 수성류</span>
+                                        가능한 한 빠른 시간내에 세탁하도록 한다.<br>
+                                        세탁은 시판중인 표백제(유한락스 등)를 30배로 물로 희석시켜, 오염된 부분을 10~20분간 담가둔 다음 가볍게 비벼서 세탁한다.<br>
+                                        천연섬유, 색상이 있는 섬유 등은 변색될 우려가 있으므로, 겉에서 보이지 않는 부분을 실험해 본 후 세탁한다. 견직, 모직에는 사용할 수 없다. 
+                                    </p><br>
+                                    <p>
+                                        <span class="numtitle"><span>03</span> 매직류</span>
+                                        오염된 부분을 크실렌(Xylene 또는 벤젤, 틀루엔)에 담가서, 가볍게 비벼서 녹여낸다(유성매직, 네임펜의 경우 메칠 셀로솔부를 사용). 견직, 모직, 플라스틱 단추 등의 부착물에는 손상을 줄 우려가 있으므로,
+                                        사용 전에 겉에서 보이지 않는 부분을 실험해 본 후 세탁한다. 약품의 화기 접촉은 절대 피한다.
+                                    </p><br>
+                                    <p>
+                                        <i class="fa-solid fa-circle-exclamation"></i>
+                                        약품을 취급할 때에는 고무장갑 등을 사용하여 피부와 접촉하지 않도록 주의한다.<br>
+                                        사용되는 약품은 어린이의 손이 닿지 않는 곳에 보관한다.<br>
+                                        40°C 이상 고온에서 수명이 짧아질수 있습니다.<br>
+                                        장기간 보관시 수평으로 보관하십시오.<br>
+                                        의류 오염시 합성세제로 세탁하십시오.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    보관이 오래되어 잉크가 샌 컴퓨터용 싸인펜을 사용해도 되나요?
+                                </p>
+                                <div class="answer">
+                                    <p>당사의 컴퓨터펜은 수명은 1년 ~ 1년6개월입니다. <br>
+                                        펜들은 보관 중에도 플라스틱 자체의 미세한 기공에 의해 기간이 경과되면서 잉크가 서서히 마르게 되고, 결국에는 잉크가 거의 마르게 되면 수명을 다하게 됩니다.<br>
+                                        그러나 1년~ 1년6개월은 유통과정 중에 여러가지 심한 조건을 감안하여 정한 기준이기 때문에, 보관창고나 매장의 온도가 안정적이면 더욱 오랜 동안 수명을 가질 수 있습니다.<br>
+                                        또한, 가장 중요한 점은 컴퓨터의 판독 성능인데, 컴퓨터 판독성능은, 소비자 분들이 사용을 할 때, 눈으로 보아서 검정색 표시가 되기만 한다면, 1년이 아니라 10년이 지나더라도
+                                        컴퓨터 판독 성능에는 전혀 변함이 없습니다. 소비자분들이 아무리 오랜된 펜이라 할지라도 뚜껑을 열고, 사용해 보시고, 눈으로 보아 표시가 된다면 판독 성능에는 이상이 없습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    아이가 크레파스를 먹었을때 응급조치 방법은?
+                                </p>
+                                <div class="answer">
+                                    <p>우선 파스의 성분은 무해합니다.<br>
+                                        그러나 음식물이 아닌 이상 건강에 좋지는 않겠지요. <br>
+                                        그러니 아이들이 파스를 사용하다 입에 넣지 않도록 주의하여 주시고, 특히 유아인 경우 기도를 막아 호흡곤란을 일으킬 수 있으니 상태를 잘 관찰해서 응급조치를 취해야 합니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    사인펜이나 프러스펜의 색이 흐려졌을때 물을 넣어도 되나요?
+                                </p>
+                                <div class="answer">
+                                    <p>
+                                        사인펜이나 프러스펜은 수성잉크를 사용합니다. <br>
+                                        때문에 물을 넣으면 잉크가 섞여 다시 필기를 할 수 있습니다. <br>
+                                        그러나 이는 일시적인 방법으로, 물을 섞게 되면 펜촉이 빨리 마르거나 온도변화에 따라 필기 기능이 저하될 수 있어 오랫동안 사용하기 위한 방법으로 권장되지는 않습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    크레파스의 뭉치는 현상은 왜 일어나나요?
+                                </p>
+                                <div class="answer">
+                                    <p>크레파스는 왁스(Wax), 색소를 혼합해 만드는데 문의하신 찌꺼기(뭉침현상)는 왁스성분 때문에 발생하게 됩니다.<br>
+                                        파스는 제조과정에서 단단하게 만들 수도 있고 부드럽게도 만들 수도 있습니다. <br>
+                                        파스의 연질을 단단하게 만들면 찌꺼기는 훨씬 적게 생기지만 색상이 흐리고 딱딱한 반면 파스를 연하게 만들면 찌꺼기는 많이 생기지만 색상이 짙어 어린이들이 <br>
+                                        색감각을 키우기가 좋고 부드럽게 칠해져 아이들이 손쉽게 색칠을 할 수 있다는 장점이 있습니다.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="list4"><ul>
+                        <li>
+                            <p class="faq">
+                                기업 제휴를 제안하고 싶습니다.
+                            </p>
+                            <div class="answer">
+                                <p>양사의 제품이나 서비스에 관련된 어떠한 형태의 제휴나, 홍보 콘텐츠 제안도 환영합니다. 구체적인 제안 사항에 대해서 작성 하시어,<br>
+                                    모리스 공식 홈페이지 ► 모리스 고객지원 ►비즈니스 게시판을 통해 ‘제휴문의’ 글을 남겨주시면 기재해주신 연락처로 답변 드리겠습니다.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="faq">
+                                특판/대량구매를 문의하고 싶습니다.
+                            </p>
+                            <div class="answer">
+                                <p>모리스 공식 홈페이지 ► 모리스 고객지원 ►비즈니스 게시판을 통해 ‘특판/대량구매’ 글을 남겨주시면 기재해주신 연락처로 답변드리겠습니다.<br>
+                                    특판 혹은 대량구매 문의 시에 예상되는 주문 수량이나, 구체적인 오더 내용에 대해서 기재해주시면 더욱 더 상세한 상담이 가능합니다. </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                    <div id="list5">
+                        <ul>
+                            <li>
+                                <p class="faq">
+                                    모나미는 한국 기업인가요?
+                                </p>
+                                <div class="answer">
+                                    <p>모나미의 역사는 1960년 창립된 광신화학공업사에서 출발하여 약 50여년 동안 문구의 길을 걷고 있는 국내 기업입니다.<br>
+                                        필기구를 넘어 종합문구 분야의 선도적인 기업으로 건실한 성장을 이뤄온 모나미는 국내시장 뿐 아니라 해외시장에서도 꾸준한 성장을 거둬 전세계 다양한 국가로 수출되고 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    제품 아이디어를 제공하고 싶습니다.
+                                </p>
+                                <div class="answer">
+                                    <p>모나미는 소비자와의 소통 및 더 나은 회사로의 발전을 위해서 창의적인 아이디어와 개선방안 등 다양한 의견을 기다리고 있습니다. 
+                                        아이디어 및 의견 제공은 아래의 이메일로 문의주시길 바랍니다. (아이디어 제안 시에는 피드백 및 정보 관리를 위해서 정확한 연락처와 메일 주소를 기재해 주십시오)
+                                        E-mail : monami_sales@monami.com 
+                                        정기적으로 개최되는 모나르떼 공모전을 통해 아이디어를 뽐내주세요! https://www.monamimall.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    모나르떼는 어떤 공모전인가요?
+                                </p>
+                                <div class="answer">
+                                    <p> 모나미 모나르떼 어린이 미술대회는 세계 속 대한민국의 위상이
+                                        점점 높아지고 있는 최근, 우리 아이들이 모국의 역사와 문화를 올바르게
+                                        인식하고 표현하며 즐길 수 있게 하기 위한 축제입니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    잉크를 지우는 방법이 궁금합니다.
+                                </p>
+                                <div class="answer">
+                                    <p>1. 유성볼펜 <br><br>
+                                        오염된 부분을 소량의 벤질 알코올에 약 5분간 담가둔 다음, 가볍게 주무르거나 비벼서 잉크를 녹여내주세요. <br>
+                                        이 때 오염 주위에 녹아난 잉크로 지저분해진 부분은 즉시 부눗물로 세척하거나, 메칠 알코올로 세척하면 깨끗해집니다.<br>
+                                        실크나 울 등의 섬유에는 손상을 줄 우려가 있어, 겉에서 보이지 않는 부분에 실험해 본 후 세탁하며, 가볍게 비벼내야 합니다.<br><br>
+                                        2. 수성류 <br><br>
+                                        가능한 한 빠른 시간내에 세탁하여야 하며, 세탁은 시판중인 표백제를 30배의 물로 희석시켜 오염 된 부분을 10~20분간 담가 둔 다음 가볍게 비벼 새척합니다. <br>
+                                        천연섬유, 색상이 있는 섬유 등은 변색의 우려가 있어 겉에서 보이지 않는 부분을 실험해본 다음 세탁해야 합니다. <br>
+                                        실크나 울 등의 섬유에는 사용할 수 없습니다. </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="list2">
+                        <ul>
+                            <li>
+                                <p class="faq">
+                                    무상보증 서비스란 무엇인가요?
+                                </p>
+                                <div class="answer">
+                                    <p>무상보증 서비스란 제품 구매 후 한달 안에 불량이나 결함이 의심되는 경우, 진행 절차에 따라 새 제품으로 교환해드리는 서비스입니다. <br>
+                                        무상보증서비스 게시판을 통해 양식에 따라 신청서를 작성하여 제출해주시면, 신청 조건에 부합되는지  자체적 확인 절차를 걸쳐 새 제품을 전달드리고 있습니다.<br> 
+                                        자세한 내용은 모리스 공식 홈페이지 ► 모리스 고객지원 ►무상보증서비스를 통해 확인해주시기 바랍니다. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    제품 아이디어를 제공하고 싶습니다.
+                                </p>
+                                <div class="answer">
+                                    <p>모나미는 소비자와의 소통 및 더 나은 회사로의 발전을 위해서 창의적인 아이디어와 개선방안 등 다양한 의견을 기다리고 있습니다. 
+                                        아이디어 및 의견 제공은 아래의 이메일로 문의주시길 바랍니다. (아이디어 제안 시에는 피드백 및 정보 관리를 위해서 정확한 연락처와 메일 주소를 기재해 주십시오)
+                                        E-mail : monami_sales@monami.com 
+                                        정기적으로 개최되는 모나르떼 공모전을 통해 아이디어를 뽐내주세요! https://www.monamimall.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    모나르떼는 어떤 공모전인가요?
+                                </p>
+                                <div class="answer">
+                                    <p> 모나미 모나르떼 어린이 미술대회는 세계 속 대한민국의 위상이
+                                        점점 높아지고 있는 최근, 우리 아이들이 모국의 역사와 문화를 올바르게
+                                        인식하고 표현하며 즐길 수 있게 하기 위한 축제입니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    잉크를 지우는 방법이 궁금합니다.
+                                </p>
+                                <div class="answer">
+                                    <p>1. 유성볼펜 <br><br>
+                                        오염된 부분을 소량의 벤질 알코올에 약 5분간 담가둔 다음, 가볍게 주무르거나 비벼서 잉크를 녹여내주세요. <br>
+                                        이 때 오염 주위에 녹아난 잉크로 지저분해진 부분은 즉시 부눗물로 세척하거나, 메칠 알코올로 세척하면 깨끗해집니다.<br>
+                                        실크나 울 등의 섬유에는 손상을 줄 우려가 있어, 겉에서 보이지 않는 부분에 실험해 본 후 세탁하며, 가볍게 비벼내야 합니다.<br><br>
+                                        2. 수성류 <br><br>
+                                        가능한 한 빠른 시간내에 세탁하여야 하며, 세탁은 시판중인 표백제를 30배의 물로 희석시켜 오염 된 부분을 10~20분간 담가 둔 다음 가볍게 비벼 새척합니다. <br>
+                                        천연섬유, 색상이 있는 섬유 등은 변색의 우려가 있어 겉에서 보이지 않는 부분을 실험해본 다음 세탁해야 합니다. <br>
+                                        실크나 울 등의 섬유에는 사용할 수 없습니다. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="faq">
+                                    아이가 장난을 치다가 잉크를 먹었습니다. 응급조치 방법은?
+                                </p>
+                                <div class="answer">
+                                    <p>필기구 잉크는 원칙적으로 저자극성, 무독성 원료를 사용합니다.<br>
+                                        참고로 문구제품은 사람들이 지니고 다니거나, 가까이 두고 사용하는 물건이기 때문에 잉크의 원료 하나하나가 안정성을 고려해 만들어져 있습니다.<br>
+                                        그러므로 아이가 잉크를 먹었다해도 치명적인 문제는 발생하지 않으며, 당황하지 말고 입속과 주위를 깨끗하게 닦아주시면 됩니다. <br>
+                                        단지, 아이를 잘 관찰하다가 이상이 있다고 생각되면 의사와 상담하는 것이 바람직합니다.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="searchbox">
+                    <div id="searchbar">
+                        <a href="" id="searchbtn">질문 검색</a><input type="text"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div id="pager">
+                    <a class="on">1</a>
+                    <a>2</a>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="family-box">
+        <i class="fa-solid fa-chevron-left monami-left"></i>
+        <i class="fa-solid fa-chevron-right monami-right"></i>
+        <div class="family-wrap">
+            <ul class="family-wrapbox">
+                <li>
+                    <a href="https://www.monamimall.com/index.html" class="mall" target="_blank">
+                        <img src="img/mall.jpg" alt="monami-mall">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.mon-arte.com/" class="monarte" target="_blank">
+                        <img src="img/monarte.jpg" alt="monarte">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.monamistation.com/main.do" class="station" target="_blank">
+                        <img src="img/station.jpg" alt="monami-station">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.monamimall.com/w/artcontest/info/artContestInfo.do" class="art-contest"
+                        target="_blank">
+                        <img src="img/art-contest.jpg" alt="art-contest">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="#">회사소개</a><span>|</span></li>
+            <li><a href="#">개인정보처리방침</a><span>|</span></li>
+            <li><a href="#">이메일 무단수집 거부</a></li>
+        </ul>
+        <button class="business_btn">사업자 정보 확인 &nbsp; <i class="fa-sharp fa-solid fa-chevron-up"> </i></button>
+        <ul class="business">
+            <li>(주) 모나미 대표이사 장하나<span>|</span></li>
+            <li>주소 : 경기도 용인시 수지구 손곡로 17 모나미빌딩<span>|</span></li>
+            <li>T.031-216-0153<span>|</span></li>
+            <li>F.031-270-5154<span>|</span></li>
+            <li>고객센터 080-022-0513</li>
+        </ul>
+
+        <p class="copyright">Copyright © 2023 We can do it. All Right Reserved.</p>
+
+        <ul class="icon">
+            <li><a href="https://www.instagram.com/monami_official/"><img src="img/footer/insta.png" alt="인스타그램"><br>인스타그램</a></li>
+            <li><a href="https://www.facebook.com/monami1960"><img src="img/footer/facebook.png" alt="페이스북"><br>페이스북</a></li>
+            <li><a href="https://www.mon-arte.com/introduce/about"><img src="img/footer/blog.png" alt="네이버블로그"><br>네이버<br>블로그</a></li>
+            <li><a href="http://www.monami.com/customer/inquiry.php"><img src="img/footer/email.png" alt="공식메일"><br>공식메일</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

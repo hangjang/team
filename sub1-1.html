@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>펜</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub1-1.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/288fb4c6b2.js" crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+    <script src="js/sub1-1.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="small">
+            <div id="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
+            <nav>
+                <ul>
+                    <li><a href="">모나미소개</a>
+                        <div class="down"><i class="fa-solid fa-angle-down"></i></div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">CEO 메시지</a></li>
+                                <li><a href="#">회사정보</a></li>
+                                <li><a href="#">회사연혁</a></li>
+                                <li><a href="#">윤리강령</a></li>
+                                <li><a href="#">투자정보</a></li>
+                                <li><a href="#">CI</a></li>
+                                <li><a href="#">채용정보</a></li>
+                                <li><a href="#">찾아오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li><a href="sub1.html">모나미제품</a>
+                        <div class="down"><i class="fa-solid fa-angle-down"></i></div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="sub1.html">펜</a></li>
+                                <li><a href="sub1.html">마카</a></li>
+                                <li><a href="sub1.html">형광펜</a></li>
+                                <li><a href="sub1.html">미술용품</a></li>
+                                <li><a href="sub1.html">기타</a></li>
+                                <li><a href="sub1.html">카탈로그</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li><a href="">NEWS & VIDEO</a>
+                        <div class="down"><i class="fa-solid fa-angle-down"></i></div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">보도자료</a></li>
+                                <li><a href="#">동영상자료</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li><a href="">모나미 미술대회</a>
+                        <div class="down"><i class="fa-solid fa-angle-down"></i></div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">미술대회 소개</a></li>
+                                <li><a href="#">수상작 발표</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li><a href="sub2.html">고객지원</a>
+                        <div class="down"><i class="fa-solid fa-angle-down"></i></div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="sub2.html">자주묻는질문</a></li>
+                                <li><a href="sub2-1.html">문의하기</a></li>
+                                <li><a href="#">이벤트</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li><a href="">기업 구매 / 개발</a>
+                        <div class="down"><i class="fa-solid fa-angle-down"></i></div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">대량 구매 문의</a></li>
+                                <li><a href="#">기업 및 단체 구매</a></li>
+                                <li><a href="#">산업용 맞춤 제품개발</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="banner"><a href="data/2023모나미카탈로그.pdf" download><img src="img/pdf_banner.png" alt=""></a>
+                    </li>
+                </ul>
+                <div class="navdown">
+                    <div id="wrapwrap">
+                        <div id="empty1"></div>
+                        <div id="empty2"></div>
+                        <div id="imgWrap"><a href="data/2023모나미카탈로그.pdf" download><img src="img/pdf_down.png"
+                                    alt="카탈로그 다운"></a></div>
+                    </div>
+                </div>
+            </nav>
+            <div class="selectbox">
+                <select name="language" id="language">
+                    <option value="KOR">KOR</option>
+                    <option value="USA">USA</option>
+                    <option value="China">China</option>
+                </select>
+                <select name="familysite" id="familysite">
+                    <option value="monamimall">모나미몰</option>
+                    <option value="monarutte">모나르떼</option>
+                    <option value="monamistore">모나미 컨셉스토어</option>
+                    <option value="hangso">주식회사 항소</option>
+                    <option value="station">모나미 스테이션</option>
+                    <option value="art">모나미 미술대회</option>
+                    <option value="service">모나미 기업서비스</option>
+                    <option value="cosmetic">모나미코스메틱</option>
+                    <option value="family site" selected="selected">FAMILY SITE</option>
+                </select>
+                <div class="icon nav-icon-5">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="header2">
+        <ul>
+            <li>모나미제품<span></span></li>
+            <li>
+                펜<b>&gt;</b><span></span>
+                <ul>
+                    <li><a href="#">펜</a></li>
+                    <li><a href="#">마카</a></li>
+                    <li><a href="#">형광펜</a></li>
+                    <li><a href="#">미술용품</a></li>
+                    <li><a href="#">기타</a></li>
+                </ul>
+            </li>
+            <li class="product">
+                <strong>153그리퍼</strong><b>&gt;</b>
+                <ul>
+                    <li><a href="#">153그리퍼</a></li>
+                    <li><a href="#">FX ZETA C3</a></li>
+                    <li><a href="#">제니스7</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="contain_sub1-1">
+        <div class="prev_next">
+            <button class="prev">&lt; <span>153 그리퍼 전</span> </button>
+            <button class="next"> &gt; <span>153 그리퍼 후</span></button>
+        </div>
+        <div class="contain_in">
+            <ul class="slide">
+                <li>
+                    <h2>153 그리퍼</h2>
+                    <h3>간편하게 사용 가능한 노크식 볼펜</h3>
+                    <div class='product'>
+                        <img src="img/sub1-1/pen1.jpg" alt="153 그리퍼 검정색">
+                        <img src="img/sub1-1/pen1-2.jpg" alt="153 그리퍼 파란색">
+                        <img src="img/sub1-1/pen1-3.jpg" alt="153 그리퍼 빨간색">
+                    </div>
+                    <div class='color_btn'>
+                        <button class=gray_btn></button>
+                        <button class=mossblue_btn></button>
+                        <button class=sunsetred_btn></button>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>TYPE</th>
+                            <td rowspan="3"></td>
+                            <td>유성볼펜</td>
+                        </tr>
+                        <tr>
+                            <th>NIB/TIB TYPE</th>
+                            <td>둥근닙 / 0.5mm, 0.7mm
+                                <button class="nib_open">+ 이미지로보기</button>
+                                <div class="nib">
+                                    <button class="nib_close">x</button>
+                                    <img src="img/sub1-1/round_nib.png" alt="둥근닙 유형">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>INK COLOR</th>
+                            <td>Black / Blue / Red</td>
+                        </tr>
+                    </table>
+                    <button class="btn1" onclick="location.href='#'">쇼핑몰 바로가기</button>
+                    <div class="detail">
+                        <img src="img/sub1-1/pen1_detail.png" alt="153 그리퍼 볼펜 상세이미지">
+                    </div>
+                    <button class="btn1" onclick="location.href='#'">쇼핑몰 바로가기</button>
+                </li>
+                <li>
+                    <h2>FX ZETA C3</h2>
+                    <h3>유격을 최소화하여 흔들림 없는 필기감</h3>
+                    <div class='product'>
+                        <img src="img/sub1-1/pen2.jpg" alt="FX ZETA C3 베이지색">
+                        <img src="img/sub1-1/pen2-2.jpg" alt="FX ZETA C3 연보라색">
+                        <img src="img/sub1-1/pen2-3.jpg" alt="FX ZETA C3 연두색">
+                        <img src="img/sub1-1/pen2-4.jpg" alt="FX ZETA C3 보라색">
+                        <img src="img/sub1-1/pen2-5.jpg" alt="FX ZETA C3 초록색">
+                        <img src="img/sub1-1/pen2-6.jpg" alt="FX ZETA C3 갈색">
+                    </div>
+                    <div class='color_btn'>
+                        <button class=begie_btn></button>
+                        <button class=lightpurple_btn></button>
+                        <button class=lightgreen_btn></button>
+                        <button class=purple_btn></button>
+                        <button class=green_btn></button>
+                        <button class=brown_btn></button>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>TYPE</th>
+                            <td rowspan="3"></td>
+                            <td>유성볼펜</td>
+                        </tr>
+                        <tr>
+                            <th>NIB/TIB TYPE</th>
+                            <td>둥근닙 / 0.5mm, 0.7mm
+                                <button class="nib_open">+ 이미지로보기</button>
+                                <div class="nib">
+                                    <button class="nib_close">x</button>
+                                    <img src="img/sub1-1/round_nib.png" alt="둥근닙 유형">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>INK COLOR</th>
+                            <td>3색 SET : Black / Blue / Red</td>
+                        </tr>
+                    </table>
+                    <button class="btn1" onclick="location.href='#'">쇼핑몰 바로가기</button>
+                    <div class="detail">
+                        <img src="img/sub1-1/pen2_detail.jpg" alt="153 그리퍼 볼펜 상세이미지">
+                    </div>
+                    <button class="btn1" onclick="location.href='#'">쇼핑몰 바로가기</button>
+                </li>
+                <li>
+                    <h2>제니스7</h2>
+                    <h3>가벼운 무게와 클립 적용으로 휴대성 극대화</h3>
+                    <div class='product'>
+                        <img src="img/sub1-1/pen3.jpg" alt="제니스7 sunsetred색">
+                        <img src="img/sub1-1/pen3-2.jpg" alt="제니스7 mossgreen색">
+                        <img src="img/sub1-1/pen3-3.jpg" alt="제니스7 mossblue색">
+                        <img src="img/sub1-1/pen3-4.jpg" alt="제니스7 honeyyellow색">
+                        <img src="img/sub1-1/pen3-5.jpg" alt="제니스7 florapurple색">
+                    </div>
+                    <div class='color_btn'>
+                        <button class=sunsetred_btn></button>
+                        <button class=mossgreen_btn></button>
+                        <button class=mossblue_btn></button>
+                        <button class=honeyyellow_btn></button>
+                        <button class=florapurple_btn></button>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>TYPE</th>
+                            <td rowspan="3"></td>
+                            <td>유성볼펜</td>
+                        </tr>
+                        <tr>
+                            <th>NIB/TIB TYPE</th>
+                            <td>둥근닙 / 0.7mm
+                                <button class="nib_open">+ 이미지로보기</button>
+                                <div class="nib">
+                                    <button class="nib_close">x</button>
+                                    <img src="img/sub1-1/round_nib.png" alt="둥근닙 유형">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>INK COLOR</th>
+                            <td>Black</td>
+                        </tr>
+                    </table>
+                    <button class="btn1" onclick="location.href='#'">쇼핑몰 바로가기</button>
+                    <div class="detail">
+                        <img src="img/sub1-1/pen3_detail.jpg" alt="153 그리퍼 볼펜 상세이미지">
+                    </div>
+                    <button class="btn1" onclick="location.href='#'">쇼핑몰 바로가기</button>
+                </li>
+            </ul>
+        </div>
+        <div class="more">
+            <div class="title">
+                <h4>펜</h4>
+                <h4>마카</h4>
+                <h4>형광펜</h4>
+                <h4>기타</h4>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more1-1.png" alt="153그리퍼"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>153그리퍼</h5>
+                            <p>편안한 그립감을 제공하는 고무 그립</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more1-2.png" alt="FX ZETA C3"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>FX ZETA C3</h5>
+                            <p>유격을 최소화하여 흔들림 없이 안정감 있는 필기감 제공</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more1-3.png" alt="제니스7"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>제니스7</h5>
+                            <p>가벼운 무게와 클립 적용으로 휴대성 극대화</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more1-4.png" alt="153 네오 만년필 EF"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>153 네오 만년필 EF</h5>
+                            <p>일반 만년필 대비 짧은 배럴과 금속 클립으로 휴대성 강화</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more1-5.png" alt="플립3"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>플립3</h5>
+                            <p>부드러운 고무 그립과 저점도 잉크 적용으로 필기 시 편안함</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more2-1.png" alt="스킬마카 트윈 알파"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>스킬마카 트윈 알파</h5>
+                            <p>기존 스킬 마카보다 아연 도금 철판 및 알루미늄에서 더 잘 지워짐</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more2-2.png" alt="사인펜 슈퍼 파스텔 12색"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>사인펜 슈퍼 파스텔 12색</h5>
+                            <p>다이어리 꾸미기, 드로잉, 컬러링 등 다양한 용도로 사용 가능한 수성 사인펜</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more2-3.png" alt="그랑데 형광펜 604"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>그랑데 형광펜 604</h5>
+                            <p>부드러운 파스텔 색상의 형광펜</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more2-4.png" alt="프러스펜 3000 피그먼트"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>프러스펜 3000 피그먼트</h5>
+                            <p>그레이 스케일 아트워크 작업에 활용 가능한 6가지 그레이 컬러</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more2-5.png" alt="라이브칼라 6색 세트"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>라이브칼라 6색 세트</h5>
+                            <p>하이라이팅, 밑줄긋기, 꾸미기 및 컬러링 등 다양한 용도로 사용 가능</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more3-1.png" alt="그랑데 형광펜 604"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>그랑데 형광펜 604</h5>
+                            <p>부드러운 파스텔 색상의 형광펜</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more3-2.png" alt="가디플러스 에센티 트윈"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>가디플러스 에센티 트윈</h5>
+                            <p>무색 무취의 인체에 무해한 안전한 항균제 첨가</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more3-3.png" alt="에딩 슈퍼 형광펜 600"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>에딩 슈퍼 형광펜 600</h5>
+                            <p>쉽게 변색되지 않는 밝고 선명한 6가지 색상</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more4-1.png" alt="스윕 +"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>스윕 +</h5>
+                            <p>강력한 접착력과 얇은 필름으로 깔끔하게 수정 가능</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more4-2.png" alt="스윕 W"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>스윕 W</h5>
+                            <p>둥글고 컴팩한 크기로 휴대가 용이</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more4-3.png" alt="그리픽스 Z"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>그리픽스 Z</h5>
+                            <p>가벼운 터치로 손쉽게 사용할 수 있으며,<br>지우개 찌꺼기 발생이 적음</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_box"><img src="img/sub1-1/more4-4.png" alt="다목적으로 사용 가능한 목공풀"></div>
+                        <div class="infor">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <h5>다목적으로 사용 가능한 목공풀</h5>
+                            <p>뚜껑을 뒤에 꽂아 사용할 수 있어서 편안함<br>(원형, 삼각풀 타입)</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <footer>
+        <ul>
+            <li><a href="#">회사소개</a><span>|</span></li>
+            <li><a href="#">개인정보처리방침</a><span>|</span></li>
+            <li><a href="#">이메일 무단수집 거부</a></li>
+        </ul>
+        <button class="business_btn">사업자 정보 확인 &nbsp; <i class="fa-sharp fa-solid fa-chevron-up"> </i></button>
+        <ul class="business">
+            <li>(주) 모나미 대표이사 장하나<span>|</span></li>
+            <li>주소 : 경기도 용인시 수지구 손곡로 17 모나미빌딩<span>|</span></li>
+            <li>T.031-216-0153<span>|</span></li>
+            <li>F.031-270-5154<span>|</span></li>
+            <li>고객센터 080-022-0513</li>
+        </ul>
+
+        <p class="copyright">Copyright © 2023 we can do it. All Right Reserved.</p>
+
+        <ul class="icon">
+            <li><a href="https://www.instagram.com/monami_official/"><img src="img/footer/insta.png" alt="인스타그램"><br>인스타그램</a></li>
+            <li><a href="https://www.facebook.com/monami1960"><img src="img/footer/facebook.png" alt="페이스북"><br>페이스북</a></li>
+            <li><a href="https://www.mon-arte.com/introduce/about"><img src="img/footer/blog.png" alt="네이버블로그"><br>네이버<br>블로그</a></li>
+            <li><a href="http://www.monami.com/customer/inquiry.php"><img src="img/footer/email.png" alt="공식메일"><br>공식메일</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
